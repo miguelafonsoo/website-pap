@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 
 :root {
@@ -8,6 +9,8 @@
     --cor-3: #6D99F2;
     --cor-4: #80C7F2;
     --cor-5: #99E2F2;
+    --fonte-padrao:Pacifico, cursive;
+
 }
 
 * {
@@ -16,16 +19,18 @@
 }
 
 header {
-    background-color: rgb(191, 237, 255);
-
-    text-align: center;
+    background-color: black;
+    font-family: var(--fonte-padrao);
     padding: 10px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 header h1 {
-    font-weight: bold;
-    color: black;
+
+    color: white;
     font-size: 2em;
+    text-align: center;
+    margin: 10px;
 }
 
 header nav {
@@ -33,18 +38,42 @@ header nav {
 }
 
 nav a {
-    padding-top: 10px;
+    display: inline-block;
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    color: white;
+    margin: 10px 30px ;
+    font-size: 1.3em;
 
 }
 
+main h1 {
+    padding: 30px;
+    text-align: center;
+}
+
+main img {
+    display: block;
+    padding: 20px;
+    margin: auto;
+    padding-bottom: 30px;
+    
+}
+
 body {
-    background-image: url(images/wallpaperflare.com_wallpaper.jpg) ;
+    background-image: url(https://wallpapers.com/images/hd/white-textured-paper-439vozmsl9bybc8a.jpg) ;
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed ;
+    font-family: var(--fonte-padrao);
 
+}
+
+footer p {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
 }
