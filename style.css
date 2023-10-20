@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+
+:root {
+    --cor-1: #5005F2;
+    --cor-2: #5C73F2;
+    --cor-3: #6D99F2;
+    --cor-4: #80C7F2;
+    --cor-5: #99E2F2;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(191, 237, 255);
+
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+}
+
+header nav {
+    margin-top: 6px;
+}
+
+nav a {
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+body {
+    background-image: url(images/wallpaperflare.com_wallpaper.jpg) ;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed ;
+
+}
