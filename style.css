@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
 
 
 :root {
@@ -9,7 +9,7 @@
     --cor-3: #6D99F2;
     --cor-4: #80C7F2;
     --cor-5: #99E2F2;
-    --fonte-padrao:Pacifico, cursive;
+    --fonte-padrao: 'Playpen Sans', cursive;
 
 }
 
@@ -19,61 +19,69 @@
 }
 
 header {
-    background-color: black;
+    background-color: white;
     font-family: var(--fonte-padrao);
     padding: 10px;
-    border-radius: 0px 0px 20px 20px;
+
 }
 
 header h1 {
 
-    color: white;
+    color: black;
     font-size: 2em;
     text-align: center;
-    margin: 10px;
 }
 
-header nav {
-    margin-top: 6px;
-}
 
 nav a {
     display: inline-block;
     text-decoration: none;
-    color: white;
-    margin: 10px 30px ;
-    font-size: 1.3em;
-
+    color: black;
+    margin: 0px 30px ;
+    font-size: 1.1em;
+    font-weight: bolder;
 }
 
 main h1 {
     padding: 30px;
     text-align: center;
+    color: white;
 }
 
 main img {
-    display: block;
-    padding: 20px;
-    margin: auto;
-    padding-bottom: 30px;
-    
+    padding: 30px;
+}
+
+main p {
+    display: inline-block;
+    color: white;
+}
+
+main h2 {
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 body {
-    background-image: url(https://wallpapers.com/images/hd/white-textured-paper-439vozmsl9bybc8a.jpg) ;
+    background-color: #4183D9;
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed ;
     font-family: var(--fonte-padrao);
-
 }
 
 footer p {
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
     font-size: 1em;
     padding: 10px;
-    border-radius: 20px 20px 0px 0px;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
