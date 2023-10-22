@@ -179,7 +179,7 @@ footer {
     text-align: center;
 }
 
-@media (max-width: 500px){
+@media (max-width: 700px){
   header {
     font-size: 0.7em;
     text-align: center;
@@ -187,11 +187,15 @@ footer {
   }
 
   header h1 {
+    display: block;
     text-align: center;
+    margin: auto;
+    padding: 10px 0px;
+    font-size: 30px;
   }
   
   nav a {
-    
+    font-size: 20px;
     padding: 7px;
   }
 
@@ -228,8 +232,12 @@ footer {
 
   #finalbox a {
     line-height: 50px;
+    padding-left: 10px;
   }
 
+  #finalbox a:hover {
+    background-color: transparent;
+  }
 
   #margin {
     padding: 0px;
@@ -248,4 +256,6 @@ footer {
     margin: 20px;
     padding: 0px;
    }
+
+
 } 
