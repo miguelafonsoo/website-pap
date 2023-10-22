@@ -19,69 +19,161 @@
 }
 
 header {
-    background-color: white;
+    width: 100%;
     font-family: var(--fonte-padrao);
-    padding: 10px;
+    position: fixed;
 
 }
 
-header h1 {
-
+h1 a {
+    text-decoration: none;
     color: black;
-    font-size: 2em;
-    text-align: center;
+}
+
+header h1 {
+    text-align: left;
+    color: black;
+    font-size: 2.5em;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    transition: 0.3s;
+
+}
+
+header h1:hover {
+    font-size: 3em;
 }
 
 
 nav a {
-    display: inline-block;
+    
+    padding: 30px;
+    left: 30px;
     text-decoration: none;
     color: black;
-    margin: 0px 30px ;
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: bolder;
+    transition-duration: 0.3s;
+}
+
+nav a:hover {
+    font-size: 1.6em;
+}
+
+main {
+    max-width: 1500px;
+    padding-left: 200px;
 }
 
 main h1 {
-    padding: 30px;
+    padding-top: 120px;
+    padding: 90px;
     text-align: center;
-    color: white;
+    color: #F6F6F6;
+    font-size: 100px;
 }
 
-main img {
-    padding: 30px;
-}
-
-main p {
-    display: inline-block;
-    color: white;
-}
 
 main h2 {
-    color: white;
+    color: #F6F6F6;
     text-align: center;
-    padding: 10px;
+    margin: 0px 250px;
+    font-size: 50px;
+    padding: 0px 100px;
 }
+
+.conteudo {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #margin {
+    padding-left: 300px;
+  }
+
+  .conteudo p {
+
+    flex: 1;
+    text-align: left;
+
+    color: #F6F6F6;
+    text-indent: 30px;
+    font-weight: bold;
+    font-size: 50px;
+
+  }
+  
+  .conteudo img {
+    margin-right: auto;
+    width: 30%;
+    margin-left: 20px;
+  }
+  
+
+  #finalbox p {
+    display: block;
+    text-align: center;
+  }
+
+  #finalbox a {
+    line-height: 120px;
+    color: #99E2F2;
+    text-decoration: none;
+    transition-duration: 0.3s;
+  }
+
+  #finalbox a:hover {
+    border-radius: 20px;
+    background-color: #80C7F2;
+    padding: 10px;
+  }
+
+  #boxsobre {
+    color: #F6F6F6;
+  }
+
+
+   #boxsobre h2 {
+    padding-top: 30px;
+    padding: 0;
+    font-weight: bold;
+    
+   }
+
+   #boxsobre p {
+    text-align: center;
+    margin: auto;
+    font-size: 1.2em;
+    margin: 20px 0px;
+    padding: 0px 250px;
+   }
+
+   #slogan p {
+    padding: 30px;
+    font-size: 3em;
+    font-style: oblique;
+    text-decoration: underline;
+   }
+
+   #boxsobre a {
+    color: #99E2F2;
+    text-decoration: underline;
+    font-weight: bold;
+   }
 
 body {
-    background-color: #4183D9;
+    background-image: url(images/back.png);
     background-position: left center;
-    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed ;
+    background-attachment: fixed;
     font-family: var(--fonte-padrao);
+    margin: auto;
 }
-
-footer p {
+footer {
+    margin-top: 100px;
+    color: #F6F6F6;
+    font-weight: bold;
+    font-size: 20px;
     text-align: center;
-    background-color: white;
-    color: black;
-    font-weight: bolder;
-    font-size: 1em;
-    padding: 10px;
-
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    box-sizing: border-box;
 }
