@@ -85,7 +85,7 @@ main h2 {
 .conteudo {
     margin-top: 100px;
     display: flex;
-    align-items: center;
+    align-items: center; 
   }
   
   #margin {
@@ -94,9 +94,7 @@ main h2 {
 
   .conteudo p {
 
-    flex: 1;
     text-align: left;
-
     color: #F6F6F6;
     text-indent: 30px;
     font-weight: bold;
@@ -110,6 +108,9 @@ main h2 {
     margin-left: 20px;
   }
   
+  #finalbox img {
+    padding-left: 100px;
+  }
 
   #finalbox p {
     display: block;
@@ -177,3 +178,74 @@ footer {
     font-size: 20px;
     text-align: center;
 }
+
+@media (max-width: 500px){
+  header {
+    font-size: 0.7em;
+    text-align: center;
+    background-color: #F6F6F6;
+  }
+
+  header h1 {
+    text-align: center;
+  }
+  
+  nav a {
+    
+    padding: 7px;
+  }
+
+  main {
+    padding: 0px;
+  }
+
+
+  .conteudo p {
+    font-size: 1.3em;
+    color: black;
+    padding: 0px 30px;
+  }
+
+  main h1 {
+    color: black;
+    padding:  200px 0px 0px 0px;
+    font-size: 2em;
+  }
+
+  main h2 {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-size: 1.5em;
+  }
+
+
+
+  #finalbox img {
+    padding-left: 0px;
+
+  }
+
+  #finalbox a {
+    line-height: 50px;
+  }
+
+
+  #margin {
+    padding: 0px;
+    padding-right: 30px;
+  }
+
+  footer {
+    color: black;
+  }
+
+  #boxsobre p {
+    color: black;
+    text-align: center;
+    margin: auto;
+    font-size: 1.2em;
+    margin: 20px;
+    padding: 0px;
+   }
+} 
