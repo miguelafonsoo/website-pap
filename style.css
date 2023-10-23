@@ -185,6 +185,7 @@ footer {
     font-size: 0.7em;
     text-align: center;
     background-color: #F6F6F6;
+    border-radius: 0px 0px 30px 30px;
   }
 
   header h1 {
@@ -207,12 +208,11 @@ footer {
 
   .conteudo p {
     font-size: 1.3em;
-    color: black;
     padding: 0px 30px;
   }
 
   main h1 {
-    color: black;
+    
     padding:  200px 0px 0px 0px;
     font-size: 2em;
   }
@@ -220,7 +220,6 @@ footer {
   main h2 {
     margin: 0px;
     padding: 0px;
-    color: black;
     font-size: 1.5em;
   }
 
@@ -245,12 +244,7 @@ footer {
     padding-right: 30px;
   }
 
-  footer {
-    color: black;
-  }
-
   #boxsobre p {
-    color: black;
     text-align: center;
     margin: auto;
     font-size: 1.2em;
@@ -258,4 +252,8 @@ footer {
     padding: 0px;
    }
 
+
+  body {
+    background-position: right bottom;
+  }
 } 
