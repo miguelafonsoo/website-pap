@@ -128,6 +128,7 @@ main h2 {
   #finalbox a:hover {
     border-radius: 20px;
     background-color: #80C7F2;
+    color: white;
     padding: 10px;
   }
 
